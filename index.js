@@ -1,7 +1,7 @@
 // Import stylesheets
 import './style.css';
 
-//Gráfico de columnas. Mi 1o gráfico. Montserrat Jiménez Linares
+//Gráfico de columnas. Mi 1o gráfico
 var visualization = d3plus.viz()
       .container("#viz1")
       .data([{"year": 1991, "name":"alpha", "value": 15}, {"year": 1992, "name":"alpha", "value": 20},])
@@ -11,7 +11,7 @@ var visualization = d3plus.viz()
       .y("value")
       .draw()
 
-//Gráfico de barras. Montserrat Jiménez Linares
+//Gráfico de barras
 d3.json("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Actividades-Guiadas/master/columnas.json", function(data) {var visualization = d3plus.viz() .container("#viz2")
       .data(data)
       .type('bar')
@@ -21,7 +21,7 @@ d3.json("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Activi
       .axes({ ticks: 'false' }) .draw();
       });
 
-//Gráfico de caja y bigotes. Montserrat Jimenez Linares
+//Gráfico de caja y bigotes
 var data_viz3 = [
       {"year": 1991, "name":"alpha", "value": 15},
       {"year": 1992, "name":"alpha", "value": 34},
