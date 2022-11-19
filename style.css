@@ -3,11 +3,11 @@ h1, h2 {
 }
 
 #viz1,#viz2{
-  width: 30%;
+  width: 70%;
   height: 300px;
 }
 
 #viz3{
-  width: 30%;
-  height: 400px;
+  width: 70%;
+  height: 500px;
 }
